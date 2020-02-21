@@ -1,0 +1,16 @@
+[
+    {
+       "id": 1,
+       "Name":"The SNO-Lot",
+       "Address": "1234",
+       "About Us":18,
+       "Hours of Operation":8
+    },
+    {
+      "id": 1,
+      "Name":"Starbucks",
+      "Address": "1234",
+      "About Us":18,
+      "Hours of Operation":8
+    }
+]
