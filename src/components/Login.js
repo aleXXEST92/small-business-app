@@ -47,7 +47,8 @@ class Login extends Component {
               type="submit"
               className="login-button"
               variant="contained"
-              color="primary">Login</Button>
+              color="primary">Login
+            </Button>
           </form>
         </Container>
       </div>

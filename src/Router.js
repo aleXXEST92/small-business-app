@@ -4,7 +4,7 @@ import cookie from 'cookie'
 import Login from './components/Login'
 import Home from './components/Home'
 import Business from './components/Business'
-import About from './components/About'
+import Dashboard from './components/Dashbaord'
 
 // Write checkAuth function here
 // Check the cookies for a cookie called "loggedIn"
@@ -30,7 +30,7 @@ const Router = () => {
         <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/login" component={Login}/>
-            <ProtectedRoute path='/about' component={About}/>>
+            <ProtectedRoute path='/dashboard' component={Dashboard}/>>
             <Route path="/business/:id" component={Business} />
         </Switch>
     );

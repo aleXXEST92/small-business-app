@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, CardContent, CardActions, Divider } from '@material-ui/core'
-import Businesses from '../Businesses.json'
+import Businesses from '../redux/state'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
