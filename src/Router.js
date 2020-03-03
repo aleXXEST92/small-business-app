@@ -4,7 +4,7 @@ import cookie from 'cookie'
 import Login from './components/Login'
 import Home from './components/Home'
 import Business from './components/Business'
-import Dashboard from './components/Dashbaord'
+import Dashboard from './components/Dashboard'
 
 // Write checkAuth function here
 // Check the cookies for a cookie called "loggedIn"
