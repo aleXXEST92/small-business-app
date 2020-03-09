@@ -1,9 +1,30 @@
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  text-align: center;
 }
+
+Button.login-button {
+  margin-top: 10px;
+}
+
+.nav-li {
+  list-style-type: none;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.link {
+  color: white;
+}
+
+.new {
+  color:rgb(195,49,87);
+  font-size: 25px;
+  float: right;
+  margin: 20px;
+}
+
+img {
+  position: relative;
+  left: 3.25rem;
+}
+

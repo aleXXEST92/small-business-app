@@ -1,9 +1,5 @@
 import React, { Component } from 'react'
-import {
-  TextField,
-  Button,
-  Container
-} from '@material-ui/core'
+import {TextField, Button, Container } from '@material-ui/core'
 
 class Login extends Component {
   state = {
@@ -19,7 +15,7 @@ class Login extends Component {
 
   login = (e) => {
     e.preventDefault()
-    document.cookie = `loggedIn=true;max-age=60*1000`
+    document.cookie = "loggedIn=true; max-age=60*1000"
 
     window.location.replace("/")
   }
@@ -27,7 +23,9 @@ class Login extends Component {
   render() {
     return (
       <div className="App">
-        <Container maxWidth="sm">
+        <h1>Login</h1>
+        <p>Welcome, to become a small business admin sign in below.</p>
+        <Container className="login"> 
           <form className="login-form" onSubmit={this.login}>
             <TextField
               required
@@ -35,19 +33,19 @@ class Login extends Component {
               value={this.state.username}
               name="username"
               label="Username"
-              type="text" />
+              type="text" /><br></br>
             <TextField
               required
               onChange={this.handleTextChange}
               value={this.state.password}
               name="password"
               label="Password"
-              type="password" />
+              type="password" /><br></br>
             <Button
               type="submit"
               className="login-button"
               variant="contained"
-              color="primary">Login
+              >Login
             </Button>
           </form>
         </Container>

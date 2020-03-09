@@ -1,6 +1,6 @@
-import { connect } from 'react-redux'
+import { connect } from "react-redux"
 import AddBusiness from '../components/AddBusiness'
-import { addBusiness } from '../redux/actions'
+import { addBusiness } from "../redux/actions"
 
 const mapDispatchToProps = (dispatch) => {
     return {
@@ -8,4 +8,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 }
 
-export default connect(null, mapDispatchToProps)(AddBusiness)
+export default connect (null, mapDispatchToProps)(AddBusiness)
