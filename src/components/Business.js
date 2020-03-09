@@ -13,10 +13,7 @@ const Business = (props) => {
             <img style={{width: '400px', height: '300px'}} src={business.url} />
             <p>{business.about}</p>
             <h4>Hours Of Operation:</h4>
-            <p>{business.hours}</p>
-
-               
-           
+            <p>{business.hours}</p>       
         </Container>
     )
 }
